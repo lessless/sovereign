@@ -21,9 +21,9 @@
 - name: Install selfoss dependencies
   apt: pkg={{ item }} state=present
   with_items:
-    - php5
-    - php5-pgsql
-    - php5-gd
+    - php7.3
+    - php7.3-pgsql
+    - php7.3-gd
   tags:
     - dependencies
 

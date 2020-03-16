@@ -20,7 +20,7 @@
     - dependencies
 
 - name: Add yunohost Rspamd repository for ARM
-  apt_repository: repo="deb http://repo.yunohost.org/debian {{ ansible_distribution_release }} stable"
+  apt_repository: repo="deb http://forge.yunohost.org/debian/ {{ ansible_distribution_release }} stable"
   when: ansible_architecture == "armv7l"
   tags:
     - dependencies

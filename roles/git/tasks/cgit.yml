@@ -5,6 +5,7 @@
     - groff
     - libssl-dev
     - python3-pip
+    - zlib1g-dev
   tags:
     - dependencies
 

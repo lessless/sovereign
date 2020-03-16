@@ -2,9 +2,9 @@
   apt: pkg={{ item }} state=present
   with_items:
     - php-soap
-    - php5
-    - php5-cli
-    - php5-imap
+    - php7.3
+    - php7.3-cli
+    - php7.3-imap
   tags:
     - dependencies
 
